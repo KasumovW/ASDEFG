@@ -1,6 +1,4 @@
-type Props = {};
-
-const Main = (props: Props) => {
+const Main = () => {
   return <div>Main</div>;
 };
 

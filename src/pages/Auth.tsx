@@ -1,8 +1,6 @@
 import logo from "../img/logo.svg";
 
-type Props = {};
-
-const Auth = (props: Props) => {
+const Auth = () => {
   return (
     <div className='max-w-[320px] h-[100vh] flex flex-col items-center justify-center m-auto gap-[50px]'>
       <div className='gap-[15px] flex flex-col'>
