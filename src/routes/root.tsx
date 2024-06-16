@@ -6,12 +6,12 @@ import Auth from "../pages/Auth";
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Auth />,
+    element: <Main />,
     errorElement: <h1>Error 404</h1>,
   },
   {
     path: "/auth",
-    element: <Main />,
+    element: <Auth />,
     errorElement: <h1>Error 404</h1>,
   },
 ]);
